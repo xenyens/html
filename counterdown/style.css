@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1598188306155-25e400eb5078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+    background-size: cover;
+    background-position: center center ;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+}
+@media (max-width: 830px){
+    h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 520px) {
+    h1{
+        font-size: 1rem;
+    }    
+}
+
+.total-time{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    
+}
+.total-time div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 1rem;
+}
+@media (max-width: 520px) {
+    .text{
+        font-size: 2rem;
+    }    
+}
+
+#subtitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
